@@ -1,0 +1,59 @@
+body{
+  background-color: dimgray important!;
+}
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+.mapOfButtons{
+  display:flex;
+  flex-wrap: wrap;
+  width:1206px;
+  height: 400px;
+  margin: 15px 0 15px 300px;
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Kino-Logo{
+  font-family: 'Lato', sans-serif;
+  font-size: 64px;
+}
+.Kino-Label{
+  font-family: 'Lato', sans-serif;
+  font-size:1rem;
+  font-weight: bold;
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.sticky-element-first{
+  padding:10px;
+  width:50%
+}
+
+.sticky-element-secound{
+  width:50%
+}
